@@ -1,8 +1,11 @@
 {
   "name": "xomtest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Testing library for xomponent",
-  "keywords": ["browser", "test"],
+  "keywords": [
+    "browser",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "github.com/tomblcode/xomtest.git"
