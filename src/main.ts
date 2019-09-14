@@ -82,7 +82,7 @@ pptr.launch({ headless: false }).then(async browser => {
   const logger = new Logger();
   await Promise.all(
     (await fs.readdir(testDir))
-      .filter(file => file[0] !== "_")
+      .filter(file => file[0] !== "_" && file.slice(-3) === "ts")
       .map(file =>
         queue.add(async () => {
           const page = await browser.newPage();
