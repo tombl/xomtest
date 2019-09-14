@@ -15,7 +15,7 @@ export default function({
   <script type="importmap-shim">
     {
       "imports": {
-        "xomtest/runtime": "/runtime.js",
+        "xomtest": "/runtime.js",
         "${library}": "/library.js"
       }
     }
